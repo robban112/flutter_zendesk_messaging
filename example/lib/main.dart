@@ -14,9 +14,9 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final String androidChannelKey =
-      'eyJzZXR0aW5nc191cmwiOiJodHRwczovL2hhbmFtaWhlbHAuemVuZGVzay5jb20vbW9iaWxlX3Nka19hcGkvc2V0dGluZ3MvMDFGR0tDRTlSNEFLWDBGOUc2Sk04Mk5RQU0uanNvbiJ9';
+      'eyJzZXR0aW5nc191cmwiOiJodHRwczovL3N1cmZib2FyZHN1cHBvcnQuemVuZGVzay5jb20vbW9iaWxlX3Nka19hcGkvc2V0dGluZ3MvMDFGU0ExRlEwVlI2UUNTM0czS0s3Wlk4NlIuanNvbiJ9';
   final String iosChannelKey =
-      'eyJzZXR0aW5nc191cmwiOiJodHRwczovL2hhbmFtaWhlbHAuemVuZGVzay5jb20vbW9iaWxlX3Nka19hcGkvc2V0dGluZ3MvMDFGR1BGVFQ1Q1hFRjdRWVkwUkg2R0JYS0MuanNvbiJ9';
+      'eyJzZXR0aW5nc191cmwiOiJodHRwczovL3N1cmZib2FyZHN1cHBvcnQuemVuZGVzay5jb20vbW9iaWxlX3Nka19hcGkvc2V0dGluZ3MvMDFGU0EyUEM5ME5aR0g3MjM0TTJRMk5TRUsuanNvbiJ9';
 
   @override
   void initState() {

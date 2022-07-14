@@ -37,9 +37,11 @@ public class SwiftZendeskMessagingPlugin: NSObject, FlutterPlugin {
             zendeskMessaging.initialize(channelKey: channelKey)
             break;
         case "show":
+            print("showing")
             if (!isInitialize) {
                 print("\(TAG) - Messaging needs to initialize first.\n")
             }
+            
             zendeskMessaging.show(rootViewController: UIApplication.shared.delegate?.window??.rootViewController)
             break
         default:

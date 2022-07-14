@@ -28,5 +28,4 @@ class ZendeskMessaging {
   static Future<void> show() async {
     await _channel.invokeMethod('show');
   }
-
 }
